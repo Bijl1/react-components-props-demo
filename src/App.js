@@ -6,10 +6,15 @@ import StudentCard from './components/StudentCard';
 import Badge from './components/Badge';
 import StudentList from './components/StudentList';
 import FlightList from './components/FlightList';
+import ReactPlayer from 'react-player';
 
 function App() {
   return (
     <div className="App">
+
+      {/* ... no changes here ... */}
+      <hr />
+      <ReactPlayer url="https://vimeo.com/channels/top/22439234" playing />
       
       <Navbar />
       <Greeting firstName="Harper" />
@@ -23,6 +28,7 @@ function App() {
       <StudentCard name="Tuna" week={8} info={{ city: 'MIA', course: 'DATA'}} />
       </StudentList>
       <FlightList />
+      
 
     </div>
   );

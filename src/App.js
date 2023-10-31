@@ -12,10 +12,15 @@ function App() {
   return (
     <div className="App">
 
-      {/* ... no changes here ... */}
       <hr />
-      <ReactPlayer url="https://vimeo.com/channels/top/22439234" playing />
-      
+      <ReactPlayer url="https://vimeo.com/channels/top/22439234" />
+      <ReactPlayer
+          url="https://www.youtube.com/watch?v=kJQP7kiw5Fk"
+          playing
+          controls
+          volume="0.5"
+        />
+        
       <Navbar />
       <Greeting firstName="Harper" />
       <Greeting nameTwo="Sterling" />

@@ -20,7 +20,14 @@ function App() {
           controls
           volume="0.5"
         />
-        
+
+        <ReactPlayer
+          url="https://www.youtube.com/watch?v=NcBjx_eyvxc"
+          playing
+          controls
+          volume="0.5"
+        />
+
       <Navbar />
       <Greeting firstName="Harper" />
       <Greeting nameTwo="Sterling" />
